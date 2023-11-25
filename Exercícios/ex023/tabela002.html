@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        td , th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead{
+            background-color: rgb(58, 58, 58);
+            color: white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color:rgb(58, 58, 58); ;
+        }
+        .num{
+            text-align: right;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: grey;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: lightgrey;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas Grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+    <table>
+        <caption>População das Unidasdes Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Céara</td>
+                <td class="num">200 000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num">0000</td>
+            </tr>
+            
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae accusantium eveniet vel dolorum cumque inventore dolore numquam nihil illo. Excepturi facere officia adipisci fugiat quam! Atque quidem voluptatum architecto maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sint modi aspernatur adipisci provident nihil quo suscipit expedita atque eos, amet totam tenetur? Repellat esse quidem dolorum ipsa consequatur totam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel accusantium quia, obcaecati odio nemo nulla amet, dolor, ducimus porro facere officiis. Quae impedit deserunt, rerum distinctio dolores hic excepturi non! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, neque quae. Voluptates sunt maiores quae! Hic animi rem voluptate saepe excepturi expedita magnam harum asperiores obcaecati, sequi, in ipsa officiis!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae accusantium eveniet vel dolorum cumque inventore dolore numquam nihil illo. Excepturi facere officia adipisci fugiat quam! Atque quidem voluptatum architecto maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sint modi aspernatur adipisci provident nihil quo suscipit expedita atque eos, amet totam tenetur? Repellat esse quidem dolorum ipsa consequatur totam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel accusantium quia, obcaecati odio nemo nulla amet, dolor, ducimus porro facere officiis. Quae impedit deserunt, rerum distinctio dolores hic excepturi non! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, neque quae. Voluptates sunt maiores quae! Hic animi rem voluptate saepe excepturi expedita magnam harum asperiores obcaecati, sequi, in ipsa officiis!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae accusantium eveniet vel dolorum cumque inventore dolore numquam nihil illo. Excepturi facere officia adipisci fugiat quam! Atque quidem voluptatum architecto maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sint modi aspernatur adipisci provident nihil quo suscipit expedita atque eos, amet totam tenetur? Repellat esse quidem dolorum ipsa consequatur totam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel accusantium quia, obcaecati odio nemo nulla amet, dolor, ducimus porro facere officiis. Quae impedit deserunt, rerum distinctio dolores hic excepturi non! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, neque quae. Voluptates sunt maiores quae! Hic animi rem voluptate saepe excepturi expedita magnam harum asperiores obcaecati, sequi, in ipsa officiis!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae accusantium eveniet vel dolorum cumque inventore dolore numquam nihil illo. Excepturi facere officia adipisci fugiat quam! Atque quidem voluptatum architecto maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sint modi aspernatur adipisci provident nihil quo suscipit expedita atque eos, amet totam tenetur? Repellat esse quidem dolorum ipsa consequatur totam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel accusantium quia, obcaecati odio nemo nulla amet, dolor, ducimus porro facere officiis. Quae impedit deserunt, rerum distinctio dolores hic excepturi non! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, neque quae. Voluptates sunt maiores quae! Hic animi rem voluptate saepe excepturi expedita magnam harum asperiores obcaecati, sequi, in ipsa officiis!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae accusantium eveniet vel dolorum cumque inventore dolore numquam nihil illo. Excepturi facere officia adipisci fugiat quam! Atque quidem voluptatum architecto maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sint modi aspernatur adipisci provident nihil quo suscipit expedita atque eos, amet totam tenetur? Repellat esse quidem dolorum ipsa consequatur totam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel accusantium quia, obcaecati odio nemo nulla amet, dolor, ducimus porro facere officiis. Quae impedit deserunt, rerum distinctio dolores hic excepturi non! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, neque quae. Voluptates sunt maiores quae! Hic animi rem voluptate saepe excepturi expedita magnam harum asperiores obcaecati, sequi, in ipsa officiis!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae accusantium eveniet vel dolorum cumque inventore dolore numquam nihil illo. Excepturi facere officia adipisci fugiat quam! Atque quidem voluptatum architecto maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sint modi aspernatur adipisci provident nihil quo suscipit expedita atque eos, amet totam tenetur? Repellat esse quidem dolorum ipsa consequatur totam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel accusantium quia, obcaecati odio nemo nulla amet, dolor, ducimus porro facere officiis. Quae impedit deserunt, rerum distinctio dolores hic excepturi non! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, neque quae. Voluptates sunt maiores quae! Hic animi rem voluptate saepe excepturi expedita magnam harum asperiores obcaecati, sequi, in ipsa officiis!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae accusantium eveniet vel dolorum cumque inventore dolore numquam nihil illo. Excepturi facere officia adipisci fugiat quam! Atque quidem voluptatum architecto maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sint modi aspernatur adipisci provident nihil quo suscipit expedita atque eos, amet totam tenetur? Repellat esse quidem dolorum ipsa consequatur totam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel accusantium quia, obcaecati odio nemo nulla amet, dolor, ducimus porro facere officiis. Quae impedit deserunt, rerum distinctio dolores hic excepturi non! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, neque quae. Voluptates sunt maiores quae! Hic animi rem voluptate saepe excepturi expedita magnam harum asperiores obcaecati, sequi, in ipsa officiis!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae accusantium eveniet vel dolorum cumque inventore dolore numquam nihil illo. Excepturi facere officia adipisci fugiat quam! Atque quidem voluptatum architecto maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sint modi aspernatur adipisci provident nihil quo suscipit expedita atque eos, amet totam tenetur? Repellat esse quidem dolorum ipsa consequatur totam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel accusantium quia, obcaecati odio nemo nulla amet, dolor, ducimus porro facere officiis. Quae impedit deserunt, rerum distinctio dolores hic excepturi non! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, neque quae. Voluptates sunt maiores quae! Hic animi rem voluptate saepe excepturi expedita magnam harum asperiores obcaecati, sequi, in ipsa officiis!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae accusantium eveniet vel dolorum cumque inventore dolore numquam nihil illo. Excepturi facere officia adipisci fugiat quam! Atque quidem voluptatum architecto maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sint modi aspernatur adipisci provident nihil quo suscipit expedita atque eos, amet totam tenetur? Repellat esse quidem dolorum ipsa consequatur totam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel accusantium quia, obcaecati odio nemo nulla amet, dolor, ducimus porro facere officiis. Quae impedit deserunt, rerum distinctio dolores hic excepturi non! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, neque quae. Voluptates sunt maiores quae! Hic animi rem voluptate saepe excepturi expedita magnam harum asperiores obcaecati, sequi, in ipsa officiis!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae accusantium eveniet vel dolorum cumque inventore dolore numquam nihil illo. Excepturi facere officia adipisci fugiat quam! Atque quidem voluptatum architecto maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sint modi aspernatur adipisci provident nihil quo suscipit expedita atque eos, amet totam tenetur? Repellat esse quidem dolorum ipsa consequatur totam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel accusantium quia, obcaecati odio nemo nulla amet, dolor, ducimus porro facere officiis. Quae impedit deserunt, rerum distinctio dolores hic excepturi non! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, neque quae. Voluptates sunt maiores quae! Hic animi rem voluptate saepe excepturi expedita magnam harum asperiores obcaecati, sequi, in ipsa officiis!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae accusantium eveniet vel dolorum cumque inventore dolore numquam nihil illo. Excepturi facere officia adipisci fugiat quam! Atque quidem voluptatum architecto maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sint modi aspernatur adipisci provident nihil quo suscipit expedita atque eos, amet totam tenetur? Repellat esse quidem dolorum ipsa consequatur totam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel accusantium quia, obcaecati odio nemo nulla amet, dolor, ducimus porro facere officiis. Quae impedit deserunt, rerum distinctio dolores hic excepturi non! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, neque quae. Voluptates sunt maiores quae! Hic animi rem voluptate saepe excepturi expedita magnam harum asperiores obcaecati, sequi, in ipsa officiis!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae accusantium eveniet vel dolorum cumque inventore dolore numquam nihil illo. Excepturi facere officia adipisci fugiat quam! Atque quidem voluptatum architecto maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sint modi aspernatur adipisci provident nihil quo suscipit expedita atque eos, amet totam tenetur? Repellat esse quidem dolorum ipsa consequatur totam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel accusantium quia, obcaecati odio nemo nulla amet, dolor, ducimus porro facere officiis. Quae impedit deserunt, rerum distinctio dolores hic excepturi non! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, neque quae. Voluptates sunt maiores quae! Hic animi rem voluptate saepe excepturi expedita magnam harum asperiores obcaecati, sequi, in ipsa officiis!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae accusantium eveniet vel dolorum cumque inventore dolore numquam nihil illo. Excepturi facere officia adipisci fugiat quam! Atque quidem voluptatum architecto maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sint modi aspernatur adipisci provident nihil quo suscipit expedita atque eos, amet totam tenetur? Repellat esse quidem dolorum ipsa consequatur totam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel accusantium quia, obcaecati odio nemo nulla amet, dolor, ducimus porro facere officiis. Quae impedit deserunt, rerum distinctio dolores hic excepturi non! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, neque quae. Voluptates sunt maiores quae! Hic animi rem voluptate saepe excepturi expedita magnam harum asperiores obcaecati, sequi, in ipsa officiis!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae accusantium eveniet vel dolorum cumque inventore dolore numquam nihil illo. Excepturi facere officia adipisci fugiat quam! Atque quidem voluptatum architecto maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sint modi aspernatur adipisci provident nihil quo suscipit expedita atque eos, amet totam tenetur? Repellat esse quidem dolorum ipsa consequatur totam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel accusantium quia, obcaecati odio nemo nulla amet, dolor, ducimus porro facere officiis. Quae impedit deserunt, rerum distinctio dolores hic excepturi non! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, neque quae. Voluptates sunt maiores quae! Hic animi rem voluptate saepe excepturi expedita magnam harum asperiores obcaecati, sequi, in ipsa officiis!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae accusantium eveniet vel dolorum cumque inventore dolore numquam nihil illo. Excepturi facere officia adipisci fugiat quam! Atque quidem voluptatum architecto maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sint modi aspernatur adipisci provident nihil quo suscipit expedita atque eos, amet totam tenetur? Repellat esse quidem dolorum ipsa consequatur totam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel accusantium quia, obcaecati odio nemo nulla amet, dolor, ducimus porro facere officiis. Quae impedit deserunt, rerum distinctio dolores hic excepturi non! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, neque quae. Voluptates sunt maiores quae! Hic animi rem voluptate saepe excepturi expedita magnam harum asperiores obcaecati, sequi, in ipsa officiis!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae accusantium eveniet vel dolorum cumque inventore dolore numquam nihil illo. Excepturi facere officia adipisci fugiat quam! Atque quidem voluptatum architecto maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sint modi aspernatur adipisci provident nihil quo suscipit expedita atque eos, amet totam tenetur? Repellat esse quidem dolorum ipsa consequatur totam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel accusantium quia, obcaecati odio nemo nulla amet, dolor, ducimus porro facere officiis. Quae impedit deserunt, rerum distinctio dolores hic excepturi non! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, neque quae. Voluptates sunt maiores quae! Hic animi rem voluptate saepe excepturi expedita magnam harum asperiores obcaecati, sequi, in ipsa officiis!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae accusantium eveniet vel dolorum cumque inventore dolore numquam nihil illo. Excepturi facere officia adipisci fugiat quam! Atque quidem voluptatum architecto maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sint modi aspernatur adipisci provident nihil quo suscipit expedita atque eos, amet totam tenetur? Repellat esse quidem dolorum ipsa consequatur totam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel accusantium quia, obcaecati odio nemo nulla amet, dolor, ducimus porro facere officiis. Quae impedit deserunt, rerum distinctio dolores hic excepturi non! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, neque quae. Voluptates sunt maiores quae! Hic animi rem voluptate saepe excepturi expedita magnam harum asperiores obcaecati, sequi, in ipsa officiis!</p>
+    
+</body>
+</html>
